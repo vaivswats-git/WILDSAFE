@@ -1,0 +1,29 @@
+# Python environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Training dataset
+dataset/
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+.pytest_cache/
+# Local detection history
+data/*.json
